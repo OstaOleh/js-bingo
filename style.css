@@ -1,0 +1,83 @@
+.user {
+    display: flex;
+}
+.card { 
+    margin: 20px;
+}
+.num {
+    padding: 14px;
+    border: 1px solid #000;
+    text-align: center;
+}
+.cards-view,
+.game-view,
+#restart-game {
+    display: none;
+}
+.done {
+    background-color: #cecece;
+}
+.checked-vertical,
+.checked-horizont,
+.checked-diagonal {
+    color: red;
+}
+.container {
+    width: 920px;
+    margin: 0 auto; 
+    font-family: 'Lato', sans-serif;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: #73C155;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all .4s ease;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+button:hover {
+    background-color: #67aa4c;
+    box-shadow: 1px 1px 1px #67aa4c;
+    color: #fff;
+}
+.box,
+.user {
+    flex-direction: column;
+    align-items: center;
+}
+.cards-view {
+    flex-direction: column;
+}
+#remove-cards {
+    margin-bottom: 20px;
+}
+.cards {
+    display: flex;
+}
+.game-view {
+    flex-direction: column;
+    align-items: center;
+}
+#number {
+    font-size: 30px;
+}
+#ul {
+    font-size: 18px;
+}
